@@ -7,7 +7,7 @@ import parkingspot from '../images/parkingspot.png';
 function Landing({ showLogin }){
   
     return(
-<div className='body'>
+    <div>
       <div className='landing-1'>
         <h1 className='landing-h1'>Park-IT </h1>
         <p className='landing-p'>A Parking Management Suite.</p>

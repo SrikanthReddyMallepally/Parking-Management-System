@@ -1,0 +1,101 @@
+    .body {
+    font-family: 'Arial', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+  } 
+  
+  .container {
+    background-color: #fff;
+    width: 100%;
+    max-width: 400px;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Toggle Button */
+  .toggle-btn {
+    background: none!important;
+  border: none;
+  padding: 0!important;
+  /*optional*/
+  font-family: arial, sans-serif;
+  /*input has OS specific font-family*/
+  color: #069;
+  text-decoration: underline;
+  cursor: pointer;
+  }
+  
+  /* Form styling */
+  .form {
+    display: none;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .form.active {
+    display: block;
+    opacity: 1;
+  }
+  
+  .hidden {
+    opacity: 0;
+    display: none;
+  }
+  
+  h2 {
+    margin-bottom: 1.5rem;
+    color: #333;
+  }
+  
+  .input-group {
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-group label {
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+    color: #555;
+  }
+  
+  .input-group input {
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+  }
+  
+  .input-group input:focus {
+    border-color: #2575fc;
+    outline: none;
+  }
+  
+  /* Submit Button */
+  .submit-btn {
+    width: 95%;
+    padding: 0.75rem;
+    background-color: #2575fc;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .submit-btn:hover {
+    background-color: #6a11cb;
+  }
+  
+  .passwordMatch{
+    font-family: poppins;
+    color:red;
+    font-size: 20px;
+    padding: 10px;
+  }
